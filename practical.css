@@ -1,0 +1,2341 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
+
+/* ===============Login page ============================= */
+
+.pad-5 {
+  padding: 0 15px 15px 15px;
+  margin: 4px;
+}
+
+
+
+#card1,
+#card2,
+#card3 {
+
+  border: 1px ridge;
+  padding: 10px;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 15%);
+  /* box-shadow: 0px 10px 200px; */
+  border-radius: 16px;
+  height: auto;
+
+}
+
+.center_button{
+text-align: center;
+top: 62%;
+position: absolute;
+}
+
+
+
+
+.arrow {
+
+  left: 20%
+}
+
+.nav-item {
+  padding-right: 3.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+
+/* .tooltiptext {
+  float: right;
+}
+
+.info-logo {
+  float: right;
+
+  position: relative;
+  right: 226px;
+  top: 3px;
+} */
+
+/* Image zoom in and zoom out when hovered over the images in suggested basket page */
+
+.basket-images:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+/* End =============================================*/
+
+#name-btn,
+#company-btn,
+#designation-btn,
+#campaign-goal-btn,
+#target-audience-btn {
+  background-color: #305dbf;
+  border-radius: 8px;
+}
+
+
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.prb {
+  background-color: #28a745 !important;
+}
+
+#name {
+  padding-left: 16px;
+}
+
+#company-name {
+  padding-left: 14px;
+}
+
+.p-2 {
+  padding: 0.25rem;
+}
+
+.p-5 {
+  padding: 3rem !important;
+  width:300px
+}
+
+::placeholder {
+  color: #305dbf;
+
+}
+
+#sub {
+  position: relative;
+  left: 400px;
+  top: 30px;
+
+}
+
+#st-cmpn {
+  position: relative;
+  left: 400px;
+  top: 30px;
+}
+
+/*===== BACK TO TOP =====*/
+.back-to-top {
+  display: block !important;
+  font-size: 33px;
+  color: #fff;
+  position: fixed;
+  right: 95px;
+  bottom: 20px;
+  width: 63px;
+  height: 58px;
+  line-height: 40px;
+  border-radius: 35px;
+  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
+  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
+  background: linear-gradient(to right, #24b913 0%, #118515 100%);
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  }
+  .back-to-top:hover {
+    color: #fff; }
+
+    .wt-icon{
+      position: relative;
+      top: 6px;
+    }
+
+ .wtz-icon{
+      position: relative;
+      top: 10px;
+    }
+
+
+
+
+
+
+
+.im-checkout-layout {
+  background: transparent;
+  text-align: center;
+  width: 300px;
+}
+.im-checkout {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+
+.im-checkout-layout .layout-vertical {
+  width: 300px;
+}
+
+.im-checkout-btn.btn--default {
+  color: #fff;
+  background: #75c26a;
+  letter-spacing: 1px;
+  padding: 12px 8px;
+  margin: 0 auto;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+.im-checkout-btn {
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  font-family: "Open Sans", "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
+  transition: 0.3s;
+}
+
+
+
+.demo {
+
+  height: 60px;
+}
+
+.flower {
+  float: left;
+  border-style: ridge;
+  width: 124px;
+  text-align: center;
+}
+
+
+/*   close button css to hide platform images*/
+#close {
+ font-size: 15px;
+  display:inline-block;
+  padding:3px 11px;
+  background:#cc3939;
+}
+
+#close:hover {
+
+background:#007bff;
+color:#fff;
+}
+
+
+.flowers {
+  position: fixed;
+  z-index: 9999;
+  left: 918px;
+  top: 126px;
+}
+
+.dim {
+  height: 54px;
+}
+
+.campaign-light-heading {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #305DBF;
+}
+
+
+.pt-4 {
+  padding-top: 1.5rem !important;
+  margin-top: 50px;
+}
+
+
+.campaign-heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+
+  letter-spacing: -0.03em;
+
+  color: #8D8D8D;
+}
+
+
+
+.next-btn {
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 140px;
+  height: 48px;
+  background: #305dbF;
+  color: #fff;
+  border-radius: 8px;
+}
+
+
+.continue-pay {
+
+  height: 48px;
+  border-radius: 8px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+
+.bg-img {
+  width: 100%;
+  opacity: 0.20;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: auto !important;
+}
+
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.3;
+  position: relative;
+  top: 70px;
+}
+
+/* ========================= Css for index============================= */
+
+.text-padding {
+  padding-top: 50px;
+}
+
+.explore-padding {
+  padding-top: 0.625rem;
+}
+
+.text-box {
+
+  opacity: 1;
+  left: 8%;
+  position: absolute;
+  top: 220px;
+  left: 40px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 77px;
+  line-height: 87px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(img/backanimate.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 18s linear infinite;
+
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px;
+  }
+}
+
+.container-padding {
+  padding-top: 15px;
+}
+
+/* ==============================Heading CSS==============================*/
+.custom-heading-text {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+
+.custom-heading-font {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 49px;
+
+  color: #fff;
+}
+
+
+
+.custom-subheading-font {
+  width: 119px;
+  height: 25px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  /* padding-bottom: 40px; */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+
+.csf {
+
+  height: 25px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  /* identical to box height */
+  /* padding-bottom: 40px; */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+.custom-heading-text {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+
+
+
+/*==============================main video css =====================*/
+.iframe-container {
+  position: relative;
+  top: 80px;
+
+  width: 70%;
+  padding-bottom: 55.55%;
+  height: 0;
+  margin: auto;
+
+}
+
+.iframe-container iframe {
+  position: absolute;
+  /* left:0; */
+  width: 100%;
+  height: 65%;
+
+}
+
+
+
+
+/* ================================================================== */
+/* ====================================Icons CSS================== */
+.custom-icon-text {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* ========================================================== */
+
+/* =========================Button Css==================== */
+.custom-btn-font {
+  font-family: "Manrope";
+  font-weight: bold;
+  font-size: 22.64px;
+}
+
+.custom-main-btn {
+  position: relative;
+  top: 120px;
+  height: 73px;
+  width: 319px;
+  padding: 24px;
+  color: #305DBF;
+  border-radius: 10px;
+  line-height: 130%;
+}
+
+/* ========================================================= */
+/* ================================Card CSS================= */
+
+.custom-card {
+  height: 126px;
+  width: 146.29px;
+  border-radius: 10px;
+  padding: 24px 62px 24px 62px;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.35);
+}
+
+
+.chip {
+  margin-bottom: 20px;
+  margin-left: 50;
+  display: inline-block;
+  padding: 0 25px;
+  height: 20px;
+  font-size: 8px;
+  line-height: 15px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+/* ================================================================= */
+
+/* ==============Css for campaign=========================== */
+
+
+.campaign-subheading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  color: #8D8D8D;
+}
+
+.campaign-platform-card {
+  padding: 15px 20px 20px 20px;
+  text-align: center;
+  /* width: 159.35px; */
+  height: 90.45px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  border-radius: 6.22943px 6.22943px 0px 0px;
+}
+
+.campaign-card-image {
+  align-content: center;
+  background-position: center;
+  object-fit: fill;
+}
+
+.campaign-btn {
+
+  width: 320px;
+  height: 57px;
+  background: #305DBF;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.campaign-btn-font {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.platform-selected {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  ;
+}
+
+
+.next-btn-font {
+  align-items: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+#cpv-row,
+#cpcv-row,
+#cpi-row,
+#cpm-row,
+#cpc-row,
+#cpl-row,
+#cpe-row,
+#cpd-row,
+#bidable,
+#sccard,
+#vouch,
+#rpoint,
+#cpmv-row {
+  display: none;
+}
+
+.campaign-question-card {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  width: 1264px;
+  height: auto;
+}
+
+
+
+.question-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #8D8D8D;
+}
+
+.checkbox-text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.side-text {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #C4C4C4;
+
+}
+
+.infoBox {
+  background: #305DBF;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.add-to-basket-btn {
+  font-family: "Manrope";
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  background: #305dbF;
+  color: #fff;
+  border-radius: 0px 0px 5px 5px;
+  /* width: 149px; */
+  width: 100%;
+
+  height: 35px;
+}
+
+.blur {
+  background: darkgray;
+}
+
+.added-to-basket-btn {
+  font-family: "Manrope";
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  background: #BCD1FF;
+  border-radius: 0px 0px 5px 5px;
+  /* width: 149.70px; */
+  width: 100%;
+  height: 35px;
+}
+
+.basket-images {
+  height: 80px;
+  width: 132px;
+  object-fit: fit;
+}
+
+
+
+
+/* =========================== footer{ social media profiles}================================== */
+
+.pyd {
+  padding: 30px 0 30px 0;
+}
+
+.pyd1 {
+  padding-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter,
+.fa-facebook-f,
+.fa-linkedin,
+.fa-youtube,
+.fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover,
+.rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover,
+.rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover,
+.rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover,
+.rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #e95950;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #00acee;
+}
+
+/* #125688; */
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+
+
+
+
+
+/* =================================================================== */
+
+
+
+
+
+
+/* =============================NEW BUTTON CSS ====================== */
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.explore {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.border {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: black;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.explore:hover {
+  transition: 0.4s ease-in-out;
+  background: white;
+
+}
+
+
+.btn {
+  color: #FFFFFF;
+}
+
+.explre:hover {
+  color: black;
+}
+
+
+/* #4F95DA */
+.explore:hover svg {
+  stroke-dashoffset: -480;
+}
+
+/* ==========================Media Quries================================= */
+
+/*--------------------------------------------------*/
+@media all and (max-width:2560px) {
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 39.64px;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: -143px;
+    height: 114px;
+    width: 507px;
+    padding: 34px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+
+  }
+  .center_button{
+    top: 62%;
+    }
+
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:2000px) {
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 24.64px;
+    align-content: center;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 0px;
+    height: 61px;
+    width: 322px;
+    padding: 15px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+
+  }
+  .center_button{
+    top: 62%;
+    }
+
+}
+
+
+
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:1580px) {
+
+  .custom-main-font {
+    left: 12%;
+    top: 309px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 57px;
+    color: #fff;
+    /* white-space: nowrap; */
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 24.64px;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 95px;
+    height: 61px;
+    width: 322px;
+    padding: 15px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+
+    
+  }
+
+
+  .center_button{
+    top: 62%;
+    }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:1380px) {
+
+  .custom-main-font {
+    left: 6%;
+    top: 309px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 57px;
+    color: #fff;
+  }
+
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:1176px) {
+
+  .custom-main-font {
+    left: 22%;
+    top: 273px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 90px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+
+
+  .custom-main-btn {
+    position: relative;
+    top: 200px;
+    height: 39px;
+    width: 202px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .center_button{
+    top: 48%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:1040px) {
+
+  .custom-main-font {
+    left: 20%;
+    top: 124px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+  .center_button{
+    top: 62%;
+    }
+
+    .center_button{
+      top: 62%;
+      }
+
+  .custom-main-btn {
+    position: relative;
+    top: 240px;
+    height: 24px;
+    width: 185px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:1030px) {
+
+  .custom-main-font {
+    left: 22%;
+    top: 240px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 80px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .center_button{
+    top: 38%;
+    }
+
+  .custom-main-btn {
+    position: relative;
+    top: 200px;
+    height: 35px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+
+@media all and (max-width:990px) {
+
+  .custom-main-font {
+    left: 22%;
+    top: 240px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 75px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+.center_button{
+  top: 62%;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 200px;
+    height: 34px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  #sub {
+
+    left: 37%;
+
+
+  }
+
+  #st-cmpn {
+    left: 30%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+
+
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:900px) {
+
+  .custom-main-font {
+
+    left: 18%;
+    top: 164px;
+
+    font-family: "Manrope";
+
+    font-style: normal;
+
+    font-weight: bold;
+
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+
+
+  }
+
+
+  .text-box {
+
+
+
+    opacity: 1;
+
+    left: 8%;
+
+    position: absolute;
+
+    top: 130px;
+
+    left: 100px;
+
+    font-family: "Manrope";
+
+    font-style: normal;
+
+    font-weight: bold;
+
+
+    font-size: 65px;
+
+
+    line-height: 80px;
+
+
+    color: transparent;
+
+    -webkit-text-stroke: 0.3px #fff;
+
+    background: url(img/backanimate.png);
+
+
+    -webkit-background-clip: text;
+
+
+    background-position: 0 0;
+
+    animation: back 18s linear infinite;
+
+
+
+  }
+
+  .center_button{
+    top: 62%;
+    }
+
+  .custom-main-btn {
+    position: relative;
+    top: 260px;
+    height: 20px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    line-height: 0px;
+
+    color: #fff;
+
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:770px) {
+
+  .custom-main-font {
+    left: 12%;
+
+    top: 167px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+
+
+  .text-box {
+
+    opacity: 1;
+    /* left: 8%; */
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 270px;
+    height: 38px;
+    width: 173px;
+    padding: 5px;
+    color: #305DBF;
+
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+
+  .center_button{
+    top: 9%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+
+
+  .arrow {
+
+    left: 27%
+  }
+
+
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:700px) {
+
+  .custom-main-font {
+    left: 7%;
+    top: 167px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+
+
+  .iframe-container {
+    position: relative;
+    top: 80px;
+
+    width: 80%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: auto;
+
+
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    /* left:0; */
+    width: 100%;
+    height: 70%;
+
+  }
+
+  .text-box {
+
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+
+
+  }
+
+
+
+  .custom-main-btn {
+    position: relative;
+    top: 238px;
+    height: 20px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+
+
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 13.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+
+
+
+  .custom-heading-font {
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+    color: #fff;
+  }
+
+
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+
+
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:600px) {
+
+  .custom-main-font {
+
+    left: 20%;
+    top: 145px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+
+  }
+
+
+
+
+
+  .text-box {
+
+    opacity: 1;
+
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+
+
+
+  }
+
+
+  .custom-main-btn {
+
+
+    position: relative;
+    top: 250px;
+    height: 15px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+
+
+  }
+
+  .center_button{
+    top: 4%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+
+
+  .custom-heading-font {
+
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+
+
+  }
+
+
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+
+@media all and (max-width:585px) {
+
+  .custom-main-font {
+    left: 13%;
+    top: 121px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 50px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 270px;
+    height: 15px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+@media all and (max-width:578px) {
+
+  .custom-main-font {
+    left: 13%;
+    top: 121px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 220px;
+    height: 15px;
+    width: 160px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+
+  .center_button{
+    top: 62%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+@media all and (max-width:552px) {
+
+  .custom-main-font {
+    left: 13%;
+    top: 121px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 87px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 197px;
+    height: 1px;
+    width: 166px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+
+  .center_button{
+    top: 10%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:500px) {
+
+
+
+  .custom-main-font {
+    left: 6%;
+    top: 104px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 45px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 250px;
+    height: 15px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+    line-height: 130%;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+
+  .chat-btn {
+
+    width: 400px !important;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+
+  .basket-images {
+    height: 50px;
+    width: 80px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media all and (max-width:440px) {
+
+  .custom-main-font {
+    left: 3%;
+    top: 104px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 57px;
+    color: #fff;
+
+  }
+
+
+
+  .iframe-container {
+    position: relative;
+    top: 80px;
+
+    width: 90%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: auto;
+
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 83%;
+
+  }
+
+  .text-box {
+
+    opacity: 1;
+    /* left: 8%; */
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    color: transparent;
+    -webkit-text-stroke: 0.1px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 25s linear infinite;
+  }
+
+
+
+  .custom-main-btn {
+
+    position: relative;
+    top: 290px;
+    height: 29px;
+    width: 132px;
+    /* padding:2px; */
+    color: #305DBF;
+    border-radius: 10px;
+
+  }
+
+  .center_button{
+    top: -47%;
+    }
+
+  .custom-btn-font {
+
+
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 8px;
+    text-align: center;
+
+
+  }
+
+  .custom-heading-font {
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .chat-btn {
+
+    width: 400px !important;
+  }
+
+
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+
+
+@media all and (max-width:390px) {
+
+  .custom-main-font {
+    left: 6%;
+    top: 104px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    align-content: center;
+  }
+
+  .text-box {
+
+    opacity: 1;
+    left: 8%;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #fff;
+    background: url(img/backanimate.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 18s linear infinite;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 262px;
+    height: 32px;
+    width: 146px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+  }
+
+  .center_button{
+    top: -55%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 9px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .custom-heading-font {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media(max-width:340px) {
+
+  .custom-main-font {
+    left: 6%;
+    top: 79px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 57px;
+    color: #fff;
+    align-content: center;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 280px;
+    height: 15px;
+    width: 180px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+  }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 11.64px;
+    line-height: 10px;
+    padding: 14px;
+    text-align: center;
+    align-content: center;
+  }
+
+  .custom-heading-font {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+    align-content: center;
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+@media(max-width:300px) {
+
+  .custom-main-font {
+    left: 11%;
+    top: 79px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 57px;
+    color: #fff;
+    align-content: center;
+  }
+
+  .custom-main-btn {
+    position: relative;
+    top: 295px;
+    height: 15px;
+    width: 146px;
+    padding: 5px;
+    color: #305DBF;
+    border-radius: 10px;
+  }
+
+  .center_button{
+    top: 62%;
+    }
+
+  .custom-btn-font {
+    font-family: "Manrope";
+    font-weight: bold;
+    font-size: 10.64px;
+    line-height: 10px;
+    padding: 11px;
+    text-align: center;
+  }
+
+  .custom-heading-font {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0px;
+    align-content: center;
+    color: #fff;
+  }
+
+  .text-padding {
+    padding-top: 42px;
+  }
+}
+
+/*--------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #1b06d8;
+  border-top-color: #a1b5e0;
+  border-bottom-color: #a1b5e0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

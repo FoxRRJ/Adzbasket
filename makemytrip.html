@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <title>Adz/Make My Trip</title>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- bootstrap core css -->
+
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/platform.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="hero_area">
+
+
+        <nav class="navbar navbar-expand-lg  fixed-top "
+            style="background-color:#0F0F3F;height:64px;width:100%;box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);">
+
+            <a href="https://www.adzbasket.io" class="navbar-brand">
+                <img src="img/adz-white.png" alt="AdZ Basket Logo" height="30px" width="55.88px"
+                    style="object-fit: fill;"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav ml-auto ">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://adzbasket.io">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://adzbasket.io/#platforms">PLATFORMS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOGS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://adzbasket.io/#chat_with_us">CONTACT</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+       
+
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">
+            Make My Trip
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <div class="container">
+
+                            <div class="col-md-12">
+                                <div class="slider_item-detail" style="text-align: center;">
+                                    <div>
+                                        <h1>
+                                            <span><img class="voot-logo" src="img\mmt\mmtlogo.webp"></span>
+                                        </h1>
+                                        <p>
+                                            MakeMyTrip has since positioned itself as one of the leading companies,
+                                            providing great offers, competitive
+                                            airfares, exclusive discounts, and a seamless online booking experience to
+                                            many of its customers.
+                                            The experience of booking your flight tickets, hotel stay, and holiday
+                                            package through our desktop site or
+                                            mobile app can be done with complete ease and no hassles at all.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            </section>
+                        </div>
+                       
+                        <div class="col-md-8 offset-md-2">
+                            <div class="about_detail-box section-headline" style="text-align: center;">
+                                <h2 class="custom_heading  excl-heading ">
+                                    Display Inventory
+                                </h2>
+
+                            </div>
+                        </div>
+
+                        <div class="bg">
+
+                            <!-- about section -->
+                            <section class=" mmt_about_section layout_padding">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                                <h4 class="custom_heading  ">
+                                                    Web Banners
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example">
+                                    <div id="mmt1" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\banner1.png" class="d-block mmt-3" alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Flights Landing Page
+                                                </p>
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\banner2.png" class="d-block  mmt-4 " alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Hotels Landing Page
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt1" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt1" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example">
+                                    <div id="mmt2" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\banner3.png" class="d-block mmt-5" alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Villas & Apartments Landing Page
+                                                </p>
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\banner4.png" class="d-block mmt-6 " alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Holidays Landing Page
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt2" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt2" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example">
+                                    <div id="mmt3" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\banner5.png" class="d-block mmt-7" alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Visa Landing Page
+                                                </p>
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\banner6.png" class="d-block mmt-8 " alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Cabs Landing Page
+                                                </p>
+
+                                            </div>
+                                            <div class="carousel-item  mygate-slide1">
+                                                <img src="img\mmt\banner7.png" class="d-block  mmt-9" alt="...">
+                                                <p class="mmt_info line-ht">
+                                                    Banner on Blogs Page
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt3" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt3" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-8 offset-md-2">
+                                    <div class="about_detail-box" style="text-align: center;">
+                                        <h4 class="custom_heading excl-heading ">
+                                            Banner on Home Page
+                                        </h4>
+
+                                    </div>
+                                </div>
+                                <div class="bd-example1">
+                                    <div id="mmt4" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item mygate-slide1  active  ">
+                                                <img src="img\mmt\app1.png" class="d-block mmt-10" alt="...">
+                                                
+
+                                            </div>
+
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\app2.png" class="d-block mmt-11 " alt="...">
+                                            </div>
+
+                                        </div>
+                                        <a class="carousel-control-prev" href="#mmt4" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt4" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-8 offset-md-2">
+                                    <div class="about_detail-box" style="text-align: center;">
+                                        <h4 class="custom_heading excl-heading ">
+                                            Banner on Side Bar
+                                        </h4>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example2">
+                                    <div id="carouselExampleCaptions2" class="carousel slide" data-ride="carousel"
+                                        data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item mygate-slide1  active ">
+                                                <img src="img\mmt\sidebar.png" class="d-block mmt-12" alt="...">
+
+                                            </div>
+
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                                <h4 class="custom_heading excl-heading ">
+                                                    Floating bar Banner
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example">
+                                    <div id="mmt5" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\float1.png" class="d-block mmt-13" alt="...">
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\float2.png" class="d-block mmt-14 " alt="...">
+                                         
+
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#mmt5" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt5" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                             
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                                <h4 class="custom_heading  ">
+                                                    Banner on Hotel Landing Page
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="bd-example">
+                                    <div id="mmt6" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\landing1.png" class="d-block mmt-15" alt="...">
+                                                
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\landing2.png" class="d-block mmt-16 " alt="...">
+                                                
+
+                                            </div>
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt6" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt6" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                                <h4 class="custom_heading  ">
+                                                    Banner on Flight Landing Page
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="bd-example">
+                                    <div id="mmt7" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\flight1.png" class="d-block mmt-17" alt="...">
+                                                
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\flight2.png" class="d-block mmt-18 " alt="...">
+                                               
+
+                                            </div>
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt7" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt7" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="about_detail-box " style="text-align: center;">
+                                                <h4 class="custom_heading excl-heading ">
+                                                    CLM & Audience Extensions
+                                                </h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="bd-example">
+                                    <div id="mmt8" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item  active mygate-slide1  ">
+                                                <img src="img\mmt\notification.png" class="d-block mmt-19" alt="...">
+                                                <p class="paytm_info line-ht">
+                                                    Push Notification
+                                                </p>
+
+
+                                            </div>
+                                            <div class="carousel-item   mygate-slide1">
+                                                <img src="img\mmt\notification2.png" class="d-block mmt-20 " alt="...">
+                                                <p class="paytm_info line-ht">
+                                                    Social Media
+                                                </p>
+
+                                            </div>
+
+
+
+                                            <div class="carousel-item  mygate-slide1">
+                                                <img src="img\mmt\notification3.png" class="d-block mmt-21 " alt="...">
+                                                <p class="paytm_info line-ht">
+                                                    Emailer </p>
+                                            </div>
+
+                                            
+                                        </div>
+
+
+                                        <a class="carousel-control-prev" href="#mmt8" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#mmt8" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <!-- end about section -->
+
+
+
+                            </section>
+
+                            <!-- ======= Services Section ======= -->
+                            <div id="services" class="services-area area-padding">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="section-headline services-head text-center">
+                                                <h2>Unique Selling Point</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <ol style="font-size: larger;
+                                                  line-height: normal;">
+                                        <li class="pd-10">One of the most popular brands in Millennials
+                                        </li>
+                                        <li class="pd-10">Wide audience set but over indexed amongst youth</li>
+                                        <li class="pd-10"> Full coverage across customers, prouducts & services</li>
+
+                                    </ol>
+
+
+                                </div>
+                            </div>
+
+
+                            <!-- ======= Counts Section ======= -->
+                            <section id="mmt_counts" class="counts">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+                                            <div class="section-headline services-head text-center analytics-heading">
+                                                <h2>Analytics</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <ol style="font-size: larger;
+                                             line-height: normal;">
+                                        <li class="pd-10">80mn +Registered Base</li>
+                                        <li class="pd-10">40mn + Monthly active users</li>
+                                        <li class="pd-10">110mn + App Downloads </li>
+                                        <li class="pd-10">15% of MMT customers are iphone users representing high end customer segment
+                                        </li>
+                                        <li class="pd-10"> 20% of customers with international travel booking/ 5 star stay bookings/ business class flight bookings
+                                        </li>
+
+
+                                    </ol>
+
+
+                                </div>
+                            </section><!-- End Counts Section -->
+
+
+                            <!-- footer section -->
+                            <section class="container-fluid footer_section">
+                                <p>
+                                    © 2022 All Rights Reserved By
+                                    <a href="https://adzbasket.io">AdzBasket.io</a>
+                                </p>
+                            </section>
+                            <!-- footer section -->
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="platform.js"></script>
+</body>
+
+</html>

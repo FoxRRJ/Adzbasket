@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adzbasket/Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg  fixed-top " style="height:64px;width:100%;">
+
+        <a href="https://www.adzbasket.io" class="navbar-brand">
+            <img src="img/adz-white.png" alt="AdZ Basket Logo" height="40px" width="70.88px"
+                style="object-fit: fill;"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav ml-auto ">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://adzbasket.io">HOME <span class="sr-only">(current)</span></a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://adzbasket.io/blog">BLOG</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://adzbasket.io/aboutus">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://adzbasket.io/#contact-data">CONTACT</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <img class="wave" src="assets/img/login/footer-bg.svg">
+    <div class="container">
+        <div class="img">
+            <img class="bg_img" src="assets/img/login/ww.png">
+        </div>
+        <div class="login-content">
+            <form action="" method="post" enctype="multipart/form-data">
+                <img src="assets/img/AdZ logo.png">
+                <h2 class="title">Welcome</h2>
+                <p id="error" style="color: #26b331;"></p>
+                <p id="error1" style="color: red;"></p>
+               <div class="input-div one" id="verify1">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                     
+                        <input id="email_data" type="text" class="input" name="email" placeholder="Username" readonly>
+                    </div>
+                </div>
+                
+                <div class="input-div pass" id="otp1" style="display: none;">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <input id="email_otp" type="password" class="input" placeholder=" Email OTP">
+                    </div>
+                </div>
+
+
+                <div class="input-div one" id="verify2">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <input id="mob_data" type="text" class="input" placeholder="Mobile No" readonly>
+                    </div>
+                </div>
+
+
+
+                <div class="input-div pass" id="otp2" style="display: none;">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                    
+                        <input id="mob_otp" type="password" class="input" placeholder=" Mobile OTP">
+                    </div>
+                </div>
+
+
+                <input id="send_otp" type="submit" class="btnz" value="Send OTP">
+                
+                <input id="verify_otp" type="submit" class="btnz" value="Verify OTP" style="display: none;">
+                
+               
+            </form>
+        </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+</body>
+
+</html>

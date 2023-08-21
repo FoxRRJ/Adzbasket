@@ -1,0 +1,1686 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+         <!--====== Favicon Icon ======-->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+     
+        
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+        integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <!--Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+
+
+
+
+    <link rel="stylesheet" href="practical.css" />
+
+
+    <title>AdZ Basket</title>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                 var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                 s1.async = true;
+                 s1.src = 'https://embed.tawk.to/6166a1b686aee40a57365343/1fpogin4c';
+                 s1.charset = 'UTF-8';
+                 s1.setAttribute('crossorigin', '*');
+                 s0.parentNode.insertBefore(s1, s0);
+            })();
+       </script>
+       <!--End of Tawk.to Script-->
+       
+</head>
+
+<body>
+    <div>
+        <nav class="navbar fixed-top"
+            style="background-color:#0F0F3F;height:64px;width:100%;box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);">
+            <div class="image m-2">
+                <a href="{{ URL::asset('/') }}">
+
+                    <img src="img/adz-white.png" alt="AdZ Basket Logo" height="25px" width="35.88px"
+                        style="object-fit: fit;">
+                </a>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container">
+        <div class="pt-4 col-12 pb-5 mt-3">
+            <div class="row col-10">
+                <div class="box fixed-top shadow-none bg-light col-12 mx-auto" style="top: 10%;">
+                    <div class="card-body">
+                        <div class="progress">
+                            <div class="progress-bar prb" role="progressbar" style="width: 0.5%;" aria-valuenow="33"
+                                aria-valuemin="0" aria-valuemax="100" id="myBar"></div>
+                        </div>
+                        <div id="floating_btn" class="float-right"
+                            style="position: absolute;right:196px;top:26px;display: none;">
+                            <button id="floating" type="button " class="btn btn-primary">View Platforms</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- {{-- Heading Text --}} -->
+        <div class="row col-12 mt-3">
+            <div class="campaign-heading p-3" style="color:#305dbf;">
+                Let's Create Your AdZ Basket
+
+
+            </div>
+
+
+
+            <div class="chips chips-placeholder"></div>
+        </div>
+        <!-- https://formspree.io/f/xaykwvko -->
+        <form id="campaign-form" action="" method="post">
+
+
+
+            <div class="row">
+                <img src="img/adz-white.png">
+
+                <section id="campaign-goal-section" class="col-12" style="opacity: 1;">
+
+
+
+                    <div class="card col-8 pb-2 m-1 camp-question-card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="question-text p-1">
+                                    What is the campaign goal?
+                                </div>
+                            </div>
+
+                            <div class="row col-12 p-1 mt-3">
+                                <div class="row col-12 mx-auto justify-content-center">
+                                    <div class="card col-lg-3 col-md-4 col-sm-12 mx-auto m-1 p-2">
+                                        <div class="form-check col-12">
+                                            <input class="form-check-input campaign-goal" type="checkbox"
+                                                value="brand awarness" name="campaignGoal" id="brand-awarness">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Brand Awarness
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card col-lg-3 col-md-4 col-sm-12 mx-auto m-1 p-2">
+                                        <div class="form-check col-12">
+                                            <input class="form-check-input campaign-goal" type="checkbox"
+                                                value="traffic" name="campaignGoal" id="traffic">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Traffic
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="card col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto m-1 p-2">
+                                        <div class="form-check col-12">
+                                            <input class="form-check-input campaign-goal" type="checkbox"
+                                                value="conversion" name="campaignGoal" id="conversion">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Conversion
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="row col-lg-4 p-1 mt-4 " id="campaign-btn">
+                                <div class="btn next-btn next-btn-font p-1 text-center">
+                                    <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                    <img class="" src="img/greater-than-icon.png" alt=""
+                                        style="position: relative;left:5px; top:4px;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <section id="audience-section" class="col-12" style="opacity: 1;">
+                        <div id="card4" class="card col-8 pb-2 m-1 camp-question-card" style=" display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        Who is your target audience?.
+                                    </div>
+                                </div>
+
+                                <div id="button-popup" style="display: none;">
+
+                                    <div class="flowers">
+                                        <span id='close'>x</span>
+                                        <div class="flower" id="1"
+                                            data-category="housewives female millenials highnet male others banner cpcv video cpi cpm cpmv ott">
+                                            <img class="dim" id="trial1" src="img/disneyhot1.png">
+                                        </div>
+
+
+                                        <div class="flower" id="2"
+                                            data-category="working millenials business housewives voucher male female highnet others banner cpm automobile">
+                                            <img class="dim" id="trial2" src="img/Ola.png">
+                                        </div>
+
+
+                                        <div class="flower" id="3"
+                                            data-category="others working millenials highnet business male female video housewives students banner cpm cpc cpmv scard fintech">
+                                            <img class="dim" id="trial3" src="img/Paytm.png">
+                                        </div>
+
+
+                                        <div class="flower" id="4"
+                                            data-category="others working students millenials scard female male housewives business highnet  banner video cpm cpc cpmv fintech">
+                                            <img class="dim" id="trial4" src="img/Phone Pay.png">
+                                        </div>
+
+
+                                        <div class="flower" id="5"
+                                            data-category="others working highnet male  housewives female business banner cpm travel">
+                                            <img class="dim" id="trial5" src="img/Make My Trip.png">
+                                        </div>
+
+
+                                        <div class="flower" id="7"
+                                            data-category="others business highnet banner female male housewives cpd cpm ott">
+                                            <img class="dim" id="trial7" src="img/Hungama Bollywood.png">
+                                        </div>
+
+
+
+
+                                        <div class="flower" id="9"
+                                            data-category="others video working millenials highnet female housewives business students banner cpm cpc cpmv fintech">
+                                            <img class="dim" id="trial9" src="img/Paytm Mall.png">
+                                        </div>
+
+
+                                        <div class="flower" id="10"
+                                            data-category="others students highnet housewives female male banner cpm news">
+                                            <img class="dim" id="trial10" src="img/Rediff.png">
+                                        </div>
+
+
+                                        <div class="flower" id="11"
+                                            data-category="others millenials housewives female male students banner video cpm cpmv fooddelivery">
+                                            <img class="dim" id="trial11" src="img/Swiggy.png">
+                                        </div>
+
+
+
+                                        <div class="flower" id="14"
+                                            data-category="others students highnet millenials housewives female male working video cpcv cpm ott">
+                                            <img class="dim" id="trial14" src="img/Alt Balaji.png">
+                                        </div>
+
+
+
+                                        <div class="flower" id="15"
+                                            data-category="others millenials working highnet male female housewives business students banner video cpm cpmv ott">
+                                            <img class="dim" id="trial15" src="img/Airtel Xtream.png">
+                                        </div>
+
+
+                                        <div class="flower" id="17"
+                                            data-category="others millenials working highnet male housewives female students business banner cpc cpm telecom">
+                                            <img class="dim" id="trial17" src="img/Airtel Thanks.jpg">
+                                        </div>
+
+
+                                        <div class="flower" id="18"
+                                            data-category="others housewives female business male highnet cpd banner cpm gaming">
+                                            <img class="dim" id="trial18" src="img/Hungama Games.png">
+                                        </div>
+
+                                        <div class="flower" id="19"
+                                            data-category="others highnet business working banner cpm fintech">
+                                            <img class="dim" id="trial19" src="img/Money Control.png">
+                                        </div>
+
+                                        <div class="flower" id="20"
+                                            data-category="others video male cpcv millenials female housewives  banner cpm cpmv health">
+                                            <img class="dim" id="trial20" src="img/Step Set Go.png">
+                                        </div>
+
+                                        <div class="flower" id="21"
+                                            data-category="others millenials students cpcv male housewives ott female business working highnet banner video cpm">
+                                            <img class="dim" id="trial21" src="img/Sun NXT.png">
+                                        </div>
+
+
+                                        <div class="flower" id="22" data-category="students others banner cpm news">
+                                            <img class="dim" id="trial22" src="img/The Indian Express.png">
+                                        </div>
+
+                                        <div class="flower" id="23"
+                                            data-category="others students housewives female male cpcv highnet banner video cpm cpmv ott">
+                                            <img class="dim" id="trial23" src="img/Zee5.png">
+                                        </div>
+
+                                        <div class="flower" id="24"
+                                            data-category="others housewives female millenials male highnet  banner video cpm cpcv cpmv ott">
+                                            <img class="dim" id="trial24" src="img/Voot.png">
+                                        </div>
+
+                                        <div class="flower" id="25"
+                                            data-category=" others video highnet banner cpm community">
+                                            <img class="dim" id="trial25" src="img/mygate.png">
+                                        </div>
+
+                                        <div class="flower" id="26"
+                                            data-category="millenials working others highnet students housewives female male highnet banner video cpm cpmv other-industry">
+                                            <img class="dim" id="trial26" src="img/truecaller.webp">
+                                        </div>
+
+                                        <div class="flower" id="27"
+                                            data-category="others highnet banner bidable cpm other-industry">
+                                            <img class="dim" id="trial27" src="img/picsart logo.png">
+                                        </div>
+
+                                        <div class="flower" id="28"
+                                            data-category="students video others millenials  banner cpm cpmv news">
+                                            <img class="dim" id="trial28" src="img/inshort.png">
+                                        </div>
+
+
+                                        <div class="flower" id="29"
+                                            data-category="millenials highnet others banner video cpc cpm male ecommerce">
+                                            <img class="dim" id="trial29" src="img/amazon/amz_logo.png">
+                                        </div>
+
+                                        <div class="flower" id="30"
+                                            data-category=" millenials students highnet others banner video cpm smedia">
+                                            <img class="dim" id="trial30" src="img/bms/bms.png" style="width:113px;">
+                                        </div>
+
+                                        <div class="flower" id="31" data-category="actvtns others digiads ecommerce">
+                                            <img class="dim" id="trial31" src="img\milkbasket\mblogo.png">
+                                        </div>
+
+                                        <div class="flower" id="32" data-category="banner others cpm community">
+                                            <img class="dim" id="trial32" src="img\nobrokerhood\logo.png">
+                                        </div>
+
+                                        <div class="flower" id="33" data-category="others banner cpm health">
+                                            <img class="dim" id="trial33" src="img/pharmeasy/logo.png">
+                                        </div>
+
+                                        <div class="flower" id="34" data-category="others banner cpm fintech">
+                                            <img class="dim" id="trial34" src="img/mobiwik/logo.png"
+                                                style="width: 83px;">
+                                        </div>
+
+                                        <div class="flower" id="35"
+                                            data-category="students video others millenials  banner cpm cpmv other-industry">
+                                            <img class="dim" id="trial35" src="img/glance/image2.png"
+                                                style="width: 70px;">
+                                        </div>
+
+                                        <div class="flower" id="36"
+                                            data-category="millenials working students highnet others banner video cpc cpm scard fintech">
+                                            <img class="dim" id="trial36" src="img\googlepay\gpaylogo.png">
+                                        </div>
+
+                                      
+                                        <div class="flower" id="38"
+                                            data-category="millenials working students business highnet others banner video cpc cpm male female news">
+                                            <img class="dim" id="trial38" src="img\dailyhunt\dailylogo.png">
+                                        </div>
+
+                                        <div class="flower" id="39" data-category="banner video others cpm telecom">
+                                            <img class="dim" id="trial39" src="img\jio\jiologo.png">
+                                        </div>
+
+                                        <div class="flower" id="40"
+                                            data-category="millenials banner video others cpm male female matrimony">
+                                            <img class="dim" id="trial40" src="img\matrimony\matrimony logo.png"
+                                                style="width:135px">
+                                        </div>
+
+                                        <div class="flower" id="41"
+                                            data-category="millenials working highnet others banner video cpm cpd automobile">
+                                            <img class="dim" id="trial41" src="img\carwale\carwale-logo.png"
+                                                style="width: 84px;">
+                                        </div>
+
+                                        <div class="flower" id="42" data-category="others actvtns digiads automobile">
+                                            <img class="dim" id="trial42" src="img\uber\uber_logo.png">
+                                        </div>
+
+                                    
+
+                                        
+
+                                        <div class="flower" id="45"
+                                            data-category="highnet others banner video cpm voucher fintech">
+                                            <img class="dim" id="trial45" src="img\cred\credlogo.png">
+                                        </div>
+
+                                        <div class="flower" id="46" data-category="others banner video cpc cpm ott">
+                                            <img class="dim" id="trial46" src="img/tataplay/tata.jpg"
+                                                style="width: 93px;">
+                                        </div>
+                                        <div class="flower" id="47" data-category="others banner video cpc cpm smedia">
+                                            <img class="dim" id="trial47" src="img/snapchat/logo.png">
+                                        </div>
+                                        <div class="flower" id="48"
+                                            data-category="others banner video male millenials cpm gaming">
+                                            <img class="dim" id="trial48" src="img\crex\logo.png">
+                                        </div>
+
+                                        <div class="flower" id="50"
+                                            data-category="others banner business highnet male female cpm travel">
+                                            <img class="dim" id="trial50" src="img/ixigo/logo.png">
+                                        </div>
+
+
+                                        <div class="flower" id="51"
+                                            data-category="highnet banner cpm video actvtns others digiads community">
+                                            <img class="dim" id="trial51" src="img/adda/logo.png" style="width: 82px;">
+                                        </div>
+
+                                        <div class="flower" id="52"
+                                            data-category="others banner millenials highnet cpm telecom">
+                                            <img class="dim" id="trial52" src="img\vi\vi logo.png">
+                                        </div>
+
+                                        <div class="flower" id="53"
+                                            data-category="others banner millenials video cpm music">
+                                            <img class="dim" id="trial53" src="img\spotify\logo.png"
+                                                style="width: 89px;">
+                                        </div>
+
+                                        <div class="flower" id="55" data-category="others banner video cpc cpm smedia">
+                                            <img class="dim" id="trial55" src="img\chingari\chinglogo.png">
+                                        </div>
+
+
+                                        <div class="flower" id="56" data-category="others banner video cpm ott">
+                                            <img class="dim" id="trial56" src="img/sony/logo.png">
+                                        </div>
+
+                                        <div class="flower" id="57"
+                                            data-category="others banner video cpc cpm other-industry">
+                                            <img class="dim" id="trial57" src="img\wetransfer\logo.png">
+                                        </div>
+
+                                        <div class="flower" id="58" data-category="others banner video cpm smedia">
+                                            <img class="dim" id="trial58" src="img\sharechat\logo.png">
+                                        </div>
+
+                                        <div class="flower" id="59"
+                                            data-category="others actvtns digiads cpm cpc banner video ecommerce">
+                                            <img class="dim" id="trial59" src="img\flipkart\logo.png">
+                                        </div>
+
+                                        <div class="flower" id="60" data-category="others banner video cpm cpc ott">
+                                            <img class="dim" id="trial60" src="img/amazon/firetv.png">
+                                        </div>
+                                         <div class="flower" id="44"
+                                            data-category=" audio others millenials  banner cpm music">
+                                            <img class="dim" id="trial44" src="img\ganna\gaanalogo2.png">
+                                        </div>
+                                        
+                                        
+                                        <div class="flower" id="8" data-category="others banner audio cpm music"> <img
+                                                class="dim" id="trial8" src="img/Hungama Music.png"></div>
+
+
+
+                                        <div class="flower" id="16"
+                                            data-category="others millenials working highnet audio male housewives female students business  banner video cpc cpm cpd cpmv music">
+                                            <img class="dim" id="trial16" src="img/Airtel Wynk Music.jpg">
+                                        </div>
+                                        
+                                          <div class="flower" id="37" data-category="others banner audio video cpm music">
+                                            <img class="dim" id="trial37" src="img/saavn/saavn-logo.jpg">
+                                        </div>
+
+
+    <div class="flower" id="43" data-category="others banner audio cpm music">
+                                            <img class="dim" id="trial43" src="img\Pocketfm\logo.png">
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="working" class="form-check-input filter" type="checkbox"
+                                                value="working" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Working Professional
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="students" class="form-check-input filter" type="checkbox"
+                                                value="students" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Students
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="millenials" class="form-check-input filter" type="checkbox"
+                                                value="millenials" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Millenials
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="housewives" class="form-check-input filter" type="checkbox"
+                                                value="housewives" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Housewives
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="travellers" class="form-check-input filter" type="checkbox"
+                                                value="business" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Business Travellers
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="net-worth" class="form-check-input filter" type="checkbox"
+                                                value="highnet" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                High Net Worth individuals
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="others" class="form-check-input filter" type="checkbox"
+                                                value="others" name="TargetAudience">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Others
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-lg-4 p-1 mt-4" id="target-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section id="industry-section" class="col-12" style="opacity: 1;">
+                        <div id="card12" class="card col-8 pb-2 m-1 camp-question-card" style=" display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        Choose your Industry type
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="ott" class="form-check-input filter" type="checkbox" value="ott"
+                                                name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                OTT
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="ecommerce" class="form-check-input filter" type="checkbox"
+                                                value="ecommerce" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                E-commerce
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="fintech" class="form-check-input filter" type="checkbox"
+                                                value="fintech" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Fintech
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="music" class="form-check-input filter" type="checkbox"
+                                                value="music" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Music
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="news" class="form-check-input filter" type="checkbox"
+                                                value="news" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                News
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="gcommunity" class="form-check-input filter" type="checkbox"
+                                                value="community" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Gated Community
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="telecom" class="form-check-input filter" type="checkbox"
+                                                value="telecom" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Teleco
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="health" class="form-check-input filter" type="checkbox"
+                                                value="health" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Healthcare
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="travel" class="form-check-input filter" type="checkbox"
+                                                value="travel" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Travel
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="matrimony" class="form-check-input filter" type="checkbox"
+                                                value="matrimony" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Matrimony
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="automobile" class="form-check-input filter" type="checkbox"
+                                                value="automobile" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Automobile
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="food-delivery" class="form-check-input filter" type="checkbox"
+                                                value="fooddelivery" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Food Delivery
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="gaming" class="form-check-input filter" type="checkbox"
+                                                value="gaming" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Gaming
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="smedia" class="form-check-input filter" type="checkbox"
+                                                value="smedia" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Social Media
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="other-industry" class="form-check-input filter" type="checkbox"
+                                                value="other-industry" name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Other
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="noneind" class="form-check-input" type="checkbox" value="none"
+                                                name="Industry">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                None
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-lg-4 p-1 mt-4" id="industry-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- {{-- Demographics Section--}} -->
+                    <section id="demographic-section" class="col-12" style="opacity: 1;">
+                        <div id="card5" class="card col-8 pb-2 m-1 campaign-question-card" style="display:none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        Does your audience fall into specific demographic?
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="age" class="form-check-input" type="checkbox" value="age"
+                                                data-toggle="modal" data-target="#age-modal" name="demographics[]">
+                                            <label class="form-check-label" class="checkbox-text"
+                                                class="btn btn-primary">
+                                                Age
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="gender" class="form-check-input" type="checkbox" value="gender"
+                                                data-toggle="modal" data-target="#gender-modal" name="demographics[]">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Gender
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="parental-status" class="form-check-input" type="checkbox"
+                                                value="parental status" data-toggle="modal"
+                                                data-target="#parental-modal" name="demographics[]">
+                                            <label class="form-check-label" class="checkbox-text" data-toggle="modal"
+                                                data-target="#parental-modal">
+                                                Parental Status
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input id="none" class="form-check-input" type="checkbox" value="none"
+                                                name="demographics[]">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                None
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-lg-4 p-1 mt-4" id="demographic-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- {{-- Ad Type Section--}} -->
+                    <section id="ad-type-section" class="col-12" style="opacity: 1;">
+                        <div id="card6" class="card col-8 pb-2 m-1 campaign-question-card" style="display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        What is your preferred type of ad?
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input filter" type="checkbox" value="banner"
+                                                name="adType" id="bannertype">
+                                            <label class="form-check-label">
+                                                Banner Ad
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="video"
+                                                name="adType" id="videotype">
+                                            <label class="form-check-label">
+                                                Video Ad
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="audio"
+                                                name="adType" id="audiotype">
+                                            <label class="form-check-label" class="checkbox-text">
+                                                Audio Ad
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-lg-4 p-1 mt-4" id="ad-type-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <!-- {{-- Pricing Model Section--}} -->
+                    <section id="pricing-section" class="col-12" style="opacity: 1;">
+                        <div id="card7" class="card col-8 pb-2 m-1 campaign-question-card" style="display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        What is your pricing Model?
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1" id="cpc-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpc"
+                                                name="pricingModel" id="cpc">
+                                            <label class="form-check-label">
+                                                CPC
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Click
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpm-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpm"
+                                                name="pricingModel" id="cpm">
+                                            <label class="form-check-label">
+                                                CPM
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Thousand impressions(Banner)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpl-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpl"
+                                                name="pricingModel" id="cpl">
+                                            <label class="form-check-label">
+                                                CPL
+
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Lead
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpe-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpe"
+                                                name="pricingModel" id="cpe">
+                                            <label class="form-check-label">
+                                                CPE
+
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Engagement
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpd-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpd"
+                                                name="pricingModel" id="cpd">
+                                            <label class="form-check-label">
+                                                CPD
+
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Day
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row col-12 m-1" id="cpi-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpi"
+                                                name="pricingModel" id="cpi">
+                                            <label class="form-check-label">
+                                                CPI
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Installation
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row col-12 m-1" id="bidable">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="bidable"
+                                                name="pricingModel" id="bidable1">
+                                            <label class="form-check-label">
+                                                Biddable
+
+                                            </label>
+                                            <span class="side-text">
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="sccard">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="scard"
+                                                name="pricingModel" id="scratchcard">
+                                            <label class="form-check-label">
+                                                Scratch Card
+
+                                            </label>
+                                            <span class="side-text">
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="vouch">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="voucher"
+                                                name="pricingModel" id="vouche">
+                                            <label class="form-check-label">
+                                                Voucher
+
+                                            </label>
+                                            <span class="side-text">
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="rpoint">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="rp"
+                                                name="pricingModel" id="rpnts">
+                                            <label class="form-check-label">
+                                                Reward Points
+
+                                            </label>
+                                            <span class="side-text">
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpmv-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpmv"
+                                                name="pricingModel" id="cpmsv">
+                                            <label class="form-check-label">
+                                                CPM
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Thousand impressions(Video)
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpv-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpv"
+                                                name="pricingModel" id="cpv">
+                                            <label class="form-check-label">
+                                                CPV
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per View
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row col-12 m-1" id="cpcv-row">
+                                    <div class="card col-12 p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input filter" type="checkbox" value="cpcv"
+                                                name="pricingModel" id="cpcv">
+                                            <label class="form-check-label">
+                                                CPCV
+                                            </label>
+                                            <span class="side-text">
+                                                Cost Per Completed View
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="row col-lg-4 p-1 mt-4" id="pricing-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <!-- {{-- Budget Section--}} -->
+                    <section id="budget-section" class="col-12" style="opacity: 1;">
+                        <div id="card8" class="card col-8 pb-2 m-1 campaign-question-card" style="display:none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        Do you have an estimated budget for this campaign?
+                                    </div>
+                                </div>
+
+                                <div class="row col-lg-6 p-1 mb-2">
+                                    <input type="number" class="form-control p-1 " id="namez" name="budget"
+                                        aria-describedby="name" placeholder="Enter Rupee Value Here">
+                                </div>
+
+                                <div class="row col-12 m-1">
+                                    <div class="row col-6 form-check ">
+                                        <input id="just-browsing" class="form-check-input" name="budget" type="checkbox"
+                                            value="No budget, Just Browsing">
+                                        <label class="form-check-label" class="checkbox-text">
+                                            No budget, Just Browsing
+                                        </label>
+                                    </div>
+
+                                    <div class="row col-6 form-check ">
+                                        <input id="start-a-campaign" class="form-check-input" name="budget"
+                                            type="checkbox" value="No budget, But want to start a campaign">
+                                        <label class="form-check-label" class="checkbox-text">
+                                            No budget, But want to start a campaign
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="row col-lg-4 p-1 mt-4" id="budget-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <!-- {{-- Date Section--}} -->
+                    <section id="date-section" class="col-12" style="opacity: 1;">
+                        <div id="card9" class="card col-8 pb-2 m-1 campaign-question-card" style="display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        What are the dates you want to run this campaign through?
+                                    </div>
+                                </div>
+                                <div class="row col-12 mt-2 mb-2">
+                                    <div class="row col-lg-6 col-md-6 col-sm-12 mx-auto">
+                                        <label class="form-check-label" class="checkbox-text">
+                                            Start Date
+                                        </label>
+                                        <input type="date" name="start-date" class="form-control p-1 " id="start-date"
+                                            aria-describedby="name" placeholder="Start Date">
+                                    </div>
+                                    <div class="row col-lg-6 col-md-6 col-sm-12 mx-auto">
+
+                                        <label class="form-check-label" class="checkbox-text">
+                                            Start Time
+                                        </label>
+                                        <input type="time" name="start-time" class="form-control p-1 " id="start-time"
+                                            aria-describedby="name" placeholder="Start Time">
+                                    </div>
+                                </div>
+                                <div class="row col-12 mt-2 mb-2">
+                                    <div class="row col-lg-6 col-md-6 col-sm-12 mx-auto">
+                                        <label class="form-check-label" class="checkbox-text">
+                                            End Date
+                                        </label>
+                                        <input type="date" name="end-date" class="form-control p-1 " id="end-date"
+                                            aria-describedby="name" placeholder="End Date">
+                                    </div>
+                                    <div class="row col-lg-6 col-md-6 col-sm-12 mx-auto">
+                                        <label class="form-check-label" class="checkbox-text">
+                                            End Time
+                                        </label>
+                                        <input type="time" name="end-time" class="form-control p-1 " id="end-time"
+                                            aria-describedby="name" placeholder="End Time">
+                                    </div>
+                                </div>
+
+                                <div class="row col-lg-4 p-1 mt-4" id="date-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- {{-- Location Section--}} -->
+
+
+                    <section id="location-section" class="col-12" style="opacity: 1;">
+                        <div id="card10" class="card col-8 pb-2 m-1 campaign-question-card" style="display: none;">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="question-text p-1">
+                                        What is your Location?
+                                    </div>
+                                </div>
+
+                                <div class="row col-12">
+                                    <!-- {{-- Row 1 --}} -->
+                                    <div class="row col-12 mx-auto mb-2">
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="bangalore" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Bangalore">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Bangalore
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="mumbai" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Mumbai">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Mumbai
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="delhi" name="Location" class="form-check-input"
+                                                        type="checkbox" value=" Delhi NCR">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Delhi NCR
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- {{-- Row 2 --}} -->
+                                    <div class="row col-12 mx-auto mb-2">
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="chennai" name="Location" class="form-check-input"
+                                                        type="checkbox" value=" Chennai">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Chennai
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="kolkata" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Kolkata">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Kolkata
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Location" name="ahmedabad" grid class="form-check-input"
+                                                        type="checkbox" value="Ahmedabad">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Ahmedabad
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- {{-- Row 3 --}} -->
+                                    <div class="row col-12 mx-auto mb-2">
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Hyderabad" name="Location" class="form-check-input"
+                                                        type="checkbox" value=" Hyderabad">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Hyderabad
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="pune" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Pune">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Pune
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="coimbatore" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Coimbatore">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Coimbatore
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <!-- {{-- Row 4 --}} -->
+                                    <div class="row col-12 mx-auto mb-2">
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Indore" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Indore">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Indore
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Vijayawada" name="Location" class="form-check-input"
+                                                        type="checkbox" value="Vijayawada">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Vijayawada
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Mysuru" name="Location" grid class="form-check-input"
+                                                        type="checkbox" value=" Mysuru">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Mysuru
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row col-lg-3 col-md-4 col-sm-12 col-xl-4 mx-auto"
+                                            style="padding-top: 10px;">
+                                            <div class="card col-12 p-2">
+                                                <div class="form-check ">
+                                                    <input id="Pan-India" name="Location" grid class="form-check-input"
+                                                        type="checkbox" value="Pan-India">
+                                                    <label class="form-check-label" class="checkbox-text">
+                                                        Other cities
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+                                <div class="row col-lg-4 p-1 mt-4" id="location-btn">
+                                    <div class="btn next-btn next-btn-font p-1 text-center">
+                                        <span style="text-align: center; position: relative;top:5px;">Next</span>
+                                        <img class="" src="img/greater-than-icon.png" alt=""
+                                            style="position: relative;left:5px; top:4px;">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </section>
+
+
+
+                    <div id="card11" class="row col-12" style="display: none;">
+                        <button id="st-cmpn" type="submit"
+                            class="btn btn-primary mt-2 col-lg-3 col-md-4 col-sm-6 col-6   p-2 "
+                            style="border-radius: 10px;top:0;"> Start-Campaign</button>
+                    </div>
+
+                    <p id="error"
+                        style="color: #4ca642;text-align: center;font-size: 19px;font-family: 'Poppins', sans-serif;">
+                    </p>
+
+
+
+                    <!--age Modal -->
+                    <div class="modal fade" id="age-modal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel" style="color: #305DBF;">Select Age
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group col-lg-12 col-md-6 col-sm-12">
+                                        <select class="form-control" id="type">
+                                            <option>Select Age Group</option>
+                                            <option value="18-30">18-30</option>
+                                            <option value="30-50">30-50</option>
+                                            <option value="50-80">50-80</option>
+                                        </select>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn col-12" style="background:#305DBF "
+                                        data-dismiss="modal">
+                                        <span style="color: white;"> Save changes</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--Gender Modal -->
+                    <div class="modal fade" id="gender-modal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel" style="color: #305DBF;">Select Gender
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row col-12 justify-content-evenly">
+                                        <div class="card col-3 p-2 m-1 mx-auto">
+                                            <div class="form-check ">
+                                                <input id="male" class="form-check-input filter" type="checkbox"
+                                                    name="demographics[]" value="male">
+                                                <label class="form-check-label" value="male" name="demographics-gender"
+                                                    class="checkbox-text">
+                                                    Male
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="card col-3 p-2 m-1 mx-auto">
+                                            <div class="form-check ">
+                                                <input id="female" class="form-check-input filter" type="checkbox"
+                                                    value="female" name="demographics[]">
+                                                <label class="form-check-label" value="female"
+                                                    name="demographics-gender" class="checkbox-text">
+                                                    Female
+                                                </label>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="card col-3 p-2 m-1 mx-auto">
+                                            <div class="form-check ">
+                                                <input class="form-check-input filter" type="checkbox" value="Others">
+                                                <label class="form-check-label" value="others"
+                                                    name="demographics-gender" class="checkbox-text">
+                                                    Others
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn col-12" style="background:#305DBF "
+                                        data-dismiss="modal">
+                                        <span style="color: white;"> Save changes</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Parental Modal -->
+                    <div class="modal fade" id="parental-modal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel" style="color: #305DBF;">Select Gender
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row col-12 justify-content-evenly">
+                                        <div class="card col-5 p-2 m-1 mx-auto">
+                                            <div class="form-check ">
+                                                <input class="form-check-input" type="checkbox" value="Single">
+                                                <label class="form-check-label" value="single"
+                                                    name="demographics-gender" class="checkbox-text">
+                                                    Single
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="card col-5 p-2 m-1 mx-auto">
+                                            <div class="form-check ">
+                                                <input class="form-check-input" type="checkbox" value="Married">
+                                                <label class="form-check-label" value="married"
+                                                    name="demographics-gender" class="checkbox-text">
+                                                    Married
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn col-12" style="background:#305DBF "
+                                        data-dismiss="modal">
+                                        <span style="color: white;"> Save changes</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </form>
+
+
+    </div>
+
+    <a href="https://wa.me/+919513391113" class="back-to-top" target="_blank"><i
+            class="bi bi-whatsapp wtz-icon"></i></a>
+
+    <script src="campaign.js"></script>
+
+    <script>
+
+
+        var form = document.getElementById("campaign-form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    // status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            // status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            // status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                // status.innerHTML = "Oops! There was a problem submitting your form"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
